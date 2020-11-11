@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" prefHeight="62.0" prefWidth="485.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <TextField fx:id="txt_Eu" prefHeight="26.0" prefWidth="130.0" promptText="Euro" />
+      <TextField fx:id="txt_Do" prefHeight="26.0" prefWidth="130.0" promptText="Dollar" GridPane.columnIndex="2" />
+      <Button fx:id="btn_Ber" mnemonicParsing="false" onAction="#berechneWert" text="Berechne" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
