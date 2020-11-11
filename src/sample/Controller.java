@@ -1,3 +1,7 @@
+/*
+Erstellt von Georg Müllecker am 11.11.2020
+Das Programm rechnet einen Euro Wert in einen Dollar Wert um
+ */
 package sample;
 
 import javafx.fxml.FXML;
